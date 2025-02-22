@@ -1,0 +1,39 @@
+﻿---
+AlignAfterOpenBracket: Align
+AlignConsecutiveMacros: "true"
+AlignConsecutiveAssignments: "true"
+AlignEscapedNewlines: Left
+AlignOperands: "true"
+AlignTrailingComments: "true"
+AllowShortBlocksOnASingleLine: "false"
+AllowShortCaseLabelsOnASingleLine: "false"
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+BinPackParameters: "false"
+BreakBeforeBraces: Custom
+BreakBeforeTernaryOperators: "true"
+ColumnLimit: "80"
+IncludeBlocks: Preserve
+IndentCaseLabels: "true"
+IndentPPDirectives: BeforeHash
+IndentWidth: "4"
+KeepEmptyLinesAtTheStartOfBlocks: "false"
+Language: Cpp
+PointerAlignment: Right
+SortIncludes: "true"
+SpaceAfterCStyleCast: "false"
+SpaceAfterLogicalNot: "false"
+SpaceBeforeAssignmentOperators: "true"
+SpaceInEmptyParentheses: "false"
+SpacesBeforeTrailingComments: "4"
+SpacesInCStyleCastParentheses: "false"
+SpacesInContainerLiterals: "false"
+SpacesInParentheses: "false"
+SpacesInSquareBrackets: "false"
+TabWidth: "4"
+UseTab: Never
+BraceWrapping:
+  AfterClass: true
+  AfterFunction: true
+  BeforeElse: true
+
