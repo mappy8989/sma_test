@@ -1,10 +1,11 @@
 #pragma once
 
+#include <cstdint>
 #include <iostream>
 #include <vector>
 
 template <typename type>
-std::vector<type> sma_calc(std::vector<type> data_in, int window_size)
+std::vector<type> sma_calc(std::vector<type> &data_in, uint32_t window_size)
 {
     if (data_in.size() < window_size || data_in.empty() || !window_size) {
         std::cout << "Incorrect input data" << std::endl;
@@ -13,7 +14,7 @@ std::vector<type> sma_calc(std::vector<type> data_in, int window_size)
 
     std::vector<type> data_out(data_in.size() - window_size + 1);
 
-    // calculate first mean for 0 to window_size data points
+    // calculate first mean for [0; window_size] data records
     type sma_first = 0;
     for (int i = 0; i < window_size; i++) {
         sma_first += data_in[i];
