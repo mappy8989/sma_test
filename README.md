@@ -1,8 +1,8 @@
 Test project for calculating SMA
 
 Requirements:
-Compiler: g++ 13.3.0 or later
-Environment: CMake 3.10 or later
+    Compiler: g++ 13.3.0 or later
+    Environment: CMake 3.10 or later
 
 Compilation Instructions:
 1) Go to a build directory: cd build
